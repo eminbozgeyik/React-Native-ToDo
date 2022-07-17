@@ -32,7 +32,7 @@ class App extends React.Component{
   render(){
     return(
       <View style={styles.viewStyle}>
-        <Text>This app is my first project!</Text>
+        <Text style={styles.header}>This app is my first project!</Text>
         <TextInput
           style={styles.inputStyle}
           onChangeText={(text)=>this.setState({text})}
